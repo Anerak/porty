@@ -1,0 +1,5 @@
+.tabs > ul > li > a.is-active {
+	--active-color: #485fc7;
+	border-bottom-color: var(--active-color);
+	color: var(--active-color);
+}
