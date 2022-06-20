@@ -35,7 +35,7 @@ const ElementSection = () => {
             if (filter.length <= 0) return true;
             return x.name.toLowerCase().search(filter.toLowerCase()) >= 0;
           }).map((el) => (
-            <NavLink className="panel-block" key={el.id} to={el.id}>
+            <NavLink replace className="panel-block" key={el.id} to={el.id}>
               <FontAwesomeIcon icon={solid("hashtag")} /> {el.name}
             </NavLink>
           ))}
