@@ -1,4 +1,9 @@
+
+@import 'bulma/sass/utilities/derived-variables.sass';
+$scheme-main: $dark;
+$scheme-invert: $white;
 @import 'bulma/css/bulma.css';
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
